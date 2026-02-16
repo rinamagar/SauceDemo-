@@ -33,11 +33,17 @@ Test cases include:
   
 
 Objective: 
--> validate user authentication functionality
--> Verify product selection and cart behavior
--> Validate checkout process
--> Identify functional defects
+<ul>
+ <li>validate user authentication functionality</li>
+ <li>Verify product selection and cart behavior</li>
+ <li>Validate checkout process</li>
+ <li>Identify functional defects</li>
+</ul>
 
 Tools used:
-  Google Sheets
-  Chrome browser/microsoft edge
+<ul>
+ <li>Google Sheets</li>
+ <li>Chrome browser/microsoft edge</li>
+</ul>
+  
+  
