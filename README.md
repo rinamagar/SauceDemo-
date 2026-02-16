@@ -12,19 +12,25 @@ Modules Covered:
  
 
 Testing Type:
-  -Functional testing
-  -Positive and Negative Testing
-  -UI Validation
+<ul>
+ <li>Manual testing</li>
+ <li>Functional testing</li>
+ <li>UI testing</li>
+ <li>Positive & Negative testing </li>
+</ul>
 
 Test cases include: 
-  -Test case ID
-  -Test Description/title
-  -Preconditions
-  -Test Steps
-  -Test data
-  -Expected Result
-  -Actual Result
-  -Status
+<ol>
+ <li>Test case ID</li>
+ <li>Test Description</li>
+ <li>Preconditions</li>
+ <li>Test Steps</li>
+ <li>Test Data</li>
+ <li>Expected Result</li>
+ <li>Actual Result</li>
+ <li>Status</li>
+</ol>
+  
 
 Objective: 
 -> validate user authentication functionality
