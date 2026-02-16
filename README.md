@@ -27,6 +27,7 @@ Objective:
 -> Verify product selection and cart behavior
 -> Validate checkout process
 -> Identify functional defects
+
 Tools used:
   Google Sheets
   Chrome browser/microsoft edge
