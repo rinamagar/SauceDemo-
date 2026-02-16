@@ -2,10 +2,14 @@
 This project contains manual test cases for the SauceDemo website.
 
 Modules Covered:
-  -login page
-  -Signup page
-  -Dashboard page
-  -Checkout Page
+<br>
+<ul>
+ <li> login page</li>
+ <li> Signup page</li>
+ <li> Dashboard page</li>
+ <li> Checkout page</li>
+</ul>
+ 
 
 Testing Type:
   -Functional testing
