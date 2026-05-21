@@ -1,0 +1,65 @@
+"Project name: ABC
+Module: Login
+Created By: Rina
+Date: XX
+Reviewd By:
+Review Date:",,,,,,,,
+,,,,,,,,
+Test ID,Test Case/ conditions,Preconditions,Test Steps,Test data,Expected Result,Actual Result,Result,Remarks
+TST-001,"Verify login with valid username 
+and valid password",User must be registered.,"Open webpage
+Enter username an password 
+click on login button","Username: standard_user
+password: secret_sauce","User should be logged in 
+successfully and redirected to 
+Product page.",User is redirected to Products page,Pass,
+TST-002,Verify login with invalid username and valid password,User must be on Login page.,"Open webpage
+Enter username an password 
+click on login button","Username: invalid_user
+password: secret_sauce","Error message should be 
+displayed.",Correct error message displayed,Pass,
+TST-003,"Verify login with valid username 
+and invalid password",User must be on Login page.,"Enter valid username
+Enter invalid password
+click login","Username: standard_user
+password: wrong_password","Error message (Login is unsucessful)should be 
+displayed. ",Error message displayed.,Pass,
+TST-004,"Verify login with empty username 
+and valid password",User must be on Login page.,"Leave username field empty .
+Leave password field empty.
+Click Login","Username: (blank)
+password: (blank)","Error message should be 
+displayed.
+Username and password field is empty.",Correct validations message displayed,Pass,
+TST-005,Verify password field is masked,"User must be registered.
+User must be on Login page.",Enter password in password field.,"
+password: secret_sauce",Password should be masked (●●●●),Password is masked,Pass,
+TST-006,Verify logout functionality,"User must be registered.
+User must be logged in.","Click menu icon
+Click logout",N/A,"User should be logged out and
+ redirected to Login page",User redirected to Login page,Pass,
+TST-007,Verify UI elements display correctly after login ,"User must be registered.
+User must be logged in.","Enter username
+Enter  password
+Click login","Username: visual_user
+password: secret sauce","User should be logged in successfully
+Products page UI should be displayed properly
+Product images, names, and prices should be
+ aligned correctly","User is logged in successfully
+Products page UI is broken
+Images and text are misaligned and overlapping",Fail,"The test case is failed in this case because after login , UI didnot match with respective product details."
+TST-008,Verify that username field is case-sensitive,"User must be registered.
+User must be on Login page.","Enter username with different letter case
+Enter valid password
+Click Login","Username: STANDARD_USER
+Password: secret_sauce","Login should fail because username is case-sensitive
+Appropriate error message should be displayed",Login fails and error message is displayed,Pass,
+TST-009,Verify login and page performance.,"User must be registered.
+User must be logged in successfully.","Enter username: 
+Enter password:
+Click the Login button","Username: performance_glitch_user
+Password: secret_sauce","User should log in successfully
+Products page should load normally and quickly
+All page elements (buttons, product images, cart) should be interactive","Login is successful
+Products page loads very slowly
+Buttons, cart, and page elements respond with noticeable delay",Fail,
